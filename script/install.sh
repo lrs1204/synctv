@@ -172,9 +172,9 @@ function DownloadURL() {
         Microarchitecture="-$Microarchitecture"
     fi
     if [[ $1 == v* ]]; then
-        echo "${GH_PROXY}https://github.com/synctv-org/synctv/releases/download/$1/synctv-${OS}-${ARCH}${Microarchitecture}"
+        echo "${GH_PROXY}https://github.com/lrs1204/synctv/releases/download/$1/synctv-${OS}-${ARCH}${Microarchitecture}"
     else
-        echo "${GH_PROXY}https://github.com/synctv-org/synctv/releases/$1/download/synctv-${OS}-${ARCH}${Microarchitecture}"
+        echo "${GH_PROXY}https://github.com/lrs1204/synctv/releases/$1/download/synctv-${OS}-${ARCH}${Microarchitecture}"
     fi
 }
 
